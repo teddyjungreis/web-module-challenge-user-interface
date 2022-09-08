@@ -1,5 +1,8 @@
 /*======= Create a new universal selector that changes the font color to: #3C373B */
 
+body {
+  color: #3C373B;
+}
 
 h1 {
   font-family: 'Gaegu', cursive;
