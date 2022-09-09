@@ -1,14 +1,15 @@
 /*======= Create a new universal selector that changes the font color to: #3C373B */
 
 body {
-  color: #3C373B;
+  font:  #3C373B;
 }
 
 h1 {
   font-family: 'Gaegu', cursive;
   margin: 20px 0;
   /*=======  Update the font size to 60px and center the text */
-  font-size: 10px;
+  text-align: center;
+  font-size: 60px;
 }
 
 h2, h3, h4, h5, h6 {
@@ -16,22 +17,25 @@ h2, h3, h4, h5, h6 {
   margin-bottom: 0;
   padding: 0 10px;
   /*=======  Update the font size to 30px */
-  font-size: 10px;
+  font-size: 30px;
 }
 
-/*======= Create a selector for ALL p tags in the site to have the following styles:
 
+p {
 font-size: 16px;
 font-family: roboto;
 padding: 10px;
 line-height: 1.4;
+}
 
 */
 
 
-/*======= Create a selector for ALL images in the site to have the following styles: 
-
+img {
   border-radius: 10px;
+}
+
+ 
 
 */
 
@@ -40,11 +44,12 @@ line-height: 1.4;
 }
 
 .content-row div {
-  /*======= create a margin propery.  Set the value to 20px */
+  margin: 20px 
 }
 
 .container {
   /*======= create a width property. Set the value to 605px */
+  width: 605 px;
   margin: 0 auto;
 }
 
@@ -57,11 +62,13 @@ line-height: 1.4;
   color: white;
   text-decoration: none;
   margin-bottom: 20px;
-   /*======= create a background property. Set the value to #F87B99 */
+  background-color: #F87B99; 
   
 }
 
 .container header nav a:hover {
+  background: white;
+  color: pink;
 /*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
 }
 
