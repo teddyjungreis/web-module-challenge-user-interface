@@ -1,4 +1,4 @@
-/*======= Create a new universal selector that changes the font color to: #3C373B */
+
 
 * {
   color: #3C373B;
@@ -7,7 +7,6 @@
 h1 {
   font-family: 'Gaegu', cursive;
   margin: 20px 0;
-  /*=======  Update the font size to 60px and center the text */
   text-align: center;
   font-size: 60px;
 }
@@ -35,9 +34,12 @@ img {
 }
 
  
+.content-hero {
+  text-align: center;
+}
 
 .content-row {
-  display: flex;
+  text-align: center;
 }
 
 .content-row div {
@@ -68,7 +70,16 @@ img {
 
 section.about {
   margin-top: 20px;
+  width: 605px;
+  margin: 0 auto;
+  text-align: center;
+  margin: 0 10px;
 }
+
+/* section.about p {
+  text-align: justify;
+} */
+
 
 .contact-section {
   border-top: 1px dashed black;
@@ -120,7 +131,7 @@ footer a:hover {
   color: white;
 }
 
-footer .footer-content .copyright {
+footer.copyright {
   padding: 20px 0;
   text-align: center;
 }
