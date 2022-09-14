@@ -69,11 +69,9 @@ img {
 }
 
 section.about {
-  margin-top: 20px;
-  width: 605px;
-  margin: 0 auto;
-  text-align: center;
-  margin: 0 10px;
+  width: 100%;
+  padding: 70px;
+  margin: 0 0 10px 0;
 }
 
 /* section.about p {
